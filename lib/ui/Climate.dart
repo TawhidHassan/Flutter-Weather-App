@@ -77,7 +77,7 @@ Widget updateTempWidget(String city) {
               children: <Widget>[
                 new ListTile(
                   title: new Text(
-                    content['main']['temp'].toString() + " F",
+                    content['main']['temp'].toString() + " F "+content['weather'][0]['main'],
                     style: new TextStyle(
                         fontStyle: FontStyle.normal,
                         fontSize: 49.9,
